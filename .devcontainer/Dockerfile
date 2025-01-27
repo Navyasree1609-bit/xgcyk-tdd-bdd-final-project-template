@@ -14,7 +14,7 @@ RUN apt-get update && \
     update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1 && \
     apt-get autoremove -y && \
     apt-get clean -y
-
+#
 # Create a user for development
 ARG USERNAME=theia
 ARG USER_UID=1000
